@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.log {
+    display: inline-flex;
+    align-items: center;
+}
+.logo {
+    height: 75px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.check {
+    display: flex;
+    padding: 2% 2%
+}
+
+#category {
+    padding: 0 5%;
+}
+
+
+.search {
+    display: inline-block; 
+    padding: 5%;  
+    
+}
+
+.caja {
+    background-color: #808a92;
+    padding: 2% 1% 2% 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+.navega{
+    width: 45%;
+}
+
+li {
+    margin-right: 5px;
+}
+
+.container {
+    padding: 2% 1% 2% 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;  
+}
+.container .card {
+    padding: 5px;
+    border: 5px solid black;
+    width: 16rem;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.container .card img{
+    width: 100%;
+    height: inherit;
+    
+}
+
+.card-body {
+    text-align: center;
+}
+
+.home{
+    background-color: #a1abb4;
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+footer {
+    background-color: #a1abb4;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 1%;
+    align-items: center;
+    margin-top: auto;
+}
+.redes > img {
+    padding: 0 5%;
+    width: 50px;
+}
+ .foot {
+    padding-right: 5%;
+    font-size: 2rem;
+ }
+
+ table {
+    border: 2px solid rgb(27, 26, 26);
+    padding: 5px 15px;
+
+ }
+ th {
+    background-color: #a1abb4;
+    padding: 5px;
+ }
+ tr td {
+    text-align: left;
+    padding: 5px 5px;
+    border: 1px solid rgb(27, 26, 26);
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.contact > form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+button {
+    background-color: #a1abb4;
+    text-align: center;
+    padding: 10px 20px;
+}
+.but {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+main {
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.events {
+    padding: 2px;
+}
